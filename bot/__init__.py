@@ -446,16 +446,16 @@ try:
     if len(CHANNEL_USERNAME) == 0:
         raise KeyError
 except KeyError:
-    log_info("CHANNEL_USERNAME not provided! Using default @Z_Mirror")
-    CHANNEL_USERNAME = "z_mirror"
+    log_info("CHANNEL_USERNAME not provided! Using default @PriyoS_Mirror)
+    CHANNEL_USERNAME = "PriyoS_Mirror"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
         raise KeyError
     FSUB_CHANNEL_ID = int(FSUB_CHANNEL_ID)
 except KeyError:
-    log_info("CHANNEL_ID not provided! Using default id of @Z_Mirror")
-    FSUB_CHANNEL_ID = -1001232292892
+    log_info("CHANNEL_ID not provided! Using default id of @PriyoS_Mirror)
+    FSUB_CHANNEL_ID = -1001508747972
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
